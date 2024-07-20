@@ -85,7 +85,7 @@ class UserServiceTest {
         var teacher = userService.findById(2L);
 
         //THEN
-        //verify(userService).findById(2L);
+        verify(userRepository).findById(2L);
         assertThat(teacher).isNotNull();
     }
 }

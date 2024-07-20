@@ -1,5 +1,4 @@
 package com.openclassrooms.starterjwt.services;
-import com.openclassrooms.starterjwt.models.Session;
 import com.openclassrooms.starterjwt.models.Teacher;
 import com.openclassrooms.starterjwt.repository.TeacherRepository;
 import lombok.var;
